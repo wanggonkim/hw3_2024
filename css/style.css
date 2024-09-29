@@ -121,7 +121,7 @@ nav a:hover, nav a:focus {
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
 .skip focus{
-  top: 20px;
+  top: 60px;
 }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
@@ -143,6 +143,7 @@ first div in the grid  and place it in the grid. */
 .container > div:first-child {
   grid-column: 1 / -1;
   background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
 }
 
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
