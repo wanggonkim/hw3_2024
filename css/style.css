@@ -189,7 +189,7 @@ first div in the grid  and place it in the grid. */
   align-self: center;
   justify-self: center;
   text-align: center;
-  
+
  }
 
 /* Add your media query here */
@@ -199,18 +199,16 @@ first div in the grid  and place it in the grid. */
  
 
   /* Step 9: Write the selector/rule property to style the nav element */
-
+ /* Step 10: Write the selector/rule property to update the .container class */
   nav {
     text-align: right;
     padding: 30px 0;
   }
-  /* Step 10: Write the selector/rule property to update the .container class */
+ 
+  /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
   .container {
     grid-template-columns: 50px auto 500px auto 50px;
   }
-
-
-  /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
 
   .about,
   .clients,
@@ -218,6 +216,7 @@ first div in the grid  and place it in the grid. */
   .contact-image {
     grid-column: 3 / span 2;
   }
+/* Step 13:Write the selector/rule property to update the .text-block class */
 
   .method,
   .contact,
@@ -226,7 +225,7 @@ first div in the grid  and place it in the grid. */
     grid-column: 2 / span 2;
   }
 
- /* Step 13:Write the selector/rule property to update the .text-block class */
+ 
  .text-block {
   max-height: 250px;
   overflow-y: scroll;
